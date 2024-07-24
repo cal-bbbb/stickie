@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
+<style type="text/css">
+    .sto {
+        fill: #b3a3c2;
+    }
+</style>
+<path class="st0" d="M243.19,240.55C223.05,253.31,0,250,0,250V0h250C250,0,253.43,219.99,243.19,240.55z"/>
+</svg>
+
+
+return `background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'> <circle cx='15' cy='15' r='10' /></svg>") no-repeat`;

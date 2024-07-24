@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    font-family: "PT Sans", sans-serif;
+    font-size: 5.0em;
+    color: #4682b4;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background-color: #EFEFEF;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+#subheader {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+#task-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+#task-list {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#task-list li {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    margin: 5px 0px;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    font-size: 16pt;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#add-item-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+#add-item-input {
+    flex: 3 0;
+}
+
+#add-item-button {
+    flex: 1 0;
+}
+
+#input-item {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px dotted #4682b4;
+    color: #4682b4;
+    font-size: 16pt;
+}
+
+#add-item-button {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+#add-item {
+    width: 100%;
+    height: 40px;
+    font-size: 16pt;
+    background: #EFEFEF;
+}
+
+#add-item:hover {
+    border-color: #F6C900;
+    color: #F6C900;
+    cursor: pointer;
+}
+
+#choose-category-select {
+    flex: 1 0;
+    padding: 0px 10px;
+}
+
+#choose-category {
+    width: 100%;
+    height: 40px;
+    font-size: 16pt;
+    background-color: #FEFEFE;
+}
+
+
+/* Style the close button */
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    width: 40px;
+    height: 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.close:hover {
+    background-color: #CC0000;
+    color: white;
+}
+
+.shopping {
+    background-color: #b3e2cd;
+}
+
+.household {
+    background-color: #fdcdac;
+}
+
+.work {
+    background-color: #cbd5e8;
+}

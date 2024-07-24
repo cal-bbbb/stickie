@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">Task List</div>
+      <div id="subheader">Enter tasks below to add them to your list</div>
+      <div id="add-item-container">
+        <div id="add-item-input">
+          <input type="text" id="input-item"></input>
+        </div>
+        <div id="choose-category-select">
+          <select id="choose-category">
+            <option value="shopping">Shopping</option>
+            <option value="school">School</option>
+            <option value="household">Household</option>
+            <option value="work">Work</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div id="add-item-button">
+          <button id="add-item">+ Add Task</button>
+        </div>
+      </div>
+      <div id="task-container">
+        <ul id="task-list">
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
